@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<meta>
+<title>|Article|La Maison de jambon</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css" />
+<meta h3 ="description" content="this is a pripton">
+</meta>
+
+<head>
+<iframe src="head.html" width="100%" height="600" style="border:1px solid black;"></iframe>
+<head/>	
+
+<div id="article">
+
+<style>
+        body { font-family: Arial, sans-serif; }
+        .article { margin-bottom: 20px; }
+        h2 { color: green; }
+    </style>
+</head>
+<body>
+    <h1>Liste des Articles</h1>
+    <div id="articles"></div>
+
+    <script>
+        // Fetch the articles from the JSON file
+        fetch('articles.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Erreur réseau');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const articlesDiv = document.getElementById('articles');
+                data.forEach(article => {
+                    const articleDiv = document.createElement('div');
+                    articleDiv.classList.add('article');
+                    articleDiv.innerHTML = `<h2>${article.title}</h2><p>${article.content}</p>`;
+                    articlesDiv.appendChild(articleDiv);
+                });
+            })
+            .catch(error => console.error('Erreur lors du chargement des articles:', error));
+    </script>
+</body>
+
+</div>
+</html>

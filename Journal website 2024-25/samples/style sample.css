@@ -1,0 +1,115 @@
+html{
+font-family: 'arial';
+font-size: 16px;
+}
+
+h1{
+color: black;
+font-size: 35px;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Lobster', cursive;
+}
+
+h2{
+color:black;
+font-family: 'Lobster', cursive; /*go to google fonts and change if needed*/
+}
+
+h3{
+color:black;
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Roboto', sans-serif;
+}
+/*top bar links*/
+a{
+color: white;
+padding : 20px;
+text-decoration: none;
+font-size: 20px;
+}
+
+a:hover{
+color: red;
+text-decoration: none;
+font-size: 20px;
+}
+/*contact me button*/
+#content_title a{
+color: red;
+padding : 20px;
+text-decoration: none;
+font-size: 20px;
+border : 1px solid red;
+border-radius: 20px;
+}
+
+#content_title a:hover{
+color: blue;
+padding : 20px;
+text-decoration: none;
+font-size: 20px;
+border : 1px solid blue;
+border-radius: 20px;
+background-color: rgba(13,188,255,0.8)
+}
+
+
+#hero{
+background: url('./background.png');
+background-repeat: no-repeat;
+background-size: cover;
+height: 608px ;
+margin-top: 0;
+margin-bottom: 0
+}
+
+nav{
+background-color: rgba(0,0,0,0.5);
+text-align: center;
+padding: 30px;
+}
+
+#clear_band{
+margin-top: 10%;
+margin-bottom: 10%;
+background-color: rgba(255,255,255,0.5)
+}
+
+#content_title{
+text-align: center;
+padding: 2%;
+}
+
+#content_title a{
+color : red;
+border-radius : 15px;
+padding: 20px;
+transition: ease 1s;
+}
+
+content img:hover{
+ transform: rotate(300deg)
+}
+
+content img:hover{
+transform: 0.2s;
+}
+
+body{
+height: 100%
+}
+
+*{
+margin:0;
+padding:0;
+}
+
+#services {
+display : flex;
+}
+
+#service_item {
+display : flex;
+}
+
