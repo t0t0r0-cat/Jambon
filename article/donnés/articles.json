@@ -1,14 +1,21 @@
 [
     {
-        "title": "Article 1",
-        "content": "lorem ipsun jh;htrgoiwht;h3lpjithtfbcbjfj;cjr495knrlkhggugedsgjhrt;gklwjekljfwajbfgwekjkldfkldldh;ljf;hfkjhdléhlksgflskhf"
+      "title": "First Article",
+      "id": "first-article",
+      "description": "A brief description of the first article.",
+      "image": "https://i.kym-cdn.com/entries/icons/original/000/051/776/lunchly_mold_cover.jpg"
     },
     {
-        "title": "Article 2",
-        "content": "Ceci est le contenu de l'article 2."
+      "title": "Second Article",
+      "id": "second-article",
+      "description": "A short summary of the second article.",
+      "image": "https://i.kym-cdn.com/entries/icons/original/000/051/776/lunchly_mold_cover.jpg"
     },
     {
-        "title": "Article 3",
-        "content": "Ceci est le contenu de l'article 3."
+      "title": "Another Article",
+      "id": "another-article",
+      "description": "An overview of another article.",
+      "image": "https://i.kym-cdn.com/entries/icons/original/000/051/776/lunchly_mold_cover.jpg"
     }
-]
+  ]
+  
