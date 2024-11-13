@@ -85,18 +85,22 @@ font-size: 20px;
   display: flex;
   align-items: flex-start;
 }
+
 .article-card img {
   max-width: 150px;
   margin-right: 16px;
   border-radius: 4px;
 }
+
 .article-info {
   max-width: 600px;
 }
+
 .article-title {
   font-size: 1.2em;
   margin: 0;
 }
+
 .article-description {
   font-size: 0.9em;
   color: #666;
